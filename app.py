@@ -4,9 +4,7 @@ import plotly_express as px
 
 st.header('Aplicativo Projeto Sprint 5')
 
-car_data = pd.read_csv(
-    # lendo os dados
-    'C:\\Users\Alexandre\\Desktop\\New\\vehicles_env\\Projeto-Sprint-5\\vehicles.csv')
+car_data = pd.read_csv('vehicles.csv')
 
 hist_button = st.button('Criar histograma')  # criar um botão
 scatter_button = st.button('Criar gráfico de dispersão')
